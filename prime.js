@@ -1,8 +1,3 @@
-/**
- * Checks if a number is a prime number.
- * @param {number} num - The number to check.
- * @returns {boolean} True if prime, false otherwise.
- */
 const isPrime = (num) => {
     if(num<=1){
         return false;
@@ -14,13 +9,9 @@ const isPrime = (num) => {
     }
     return true;
 }
-//example
 let number = 17;
 if(isPrime(number)){
     console.log(number = "is a Prime Number");
 }else{
     console.log(number = "is not a Prime Number");
 }
-
-// Export the function for the test cases
-module.exports = isPrime;

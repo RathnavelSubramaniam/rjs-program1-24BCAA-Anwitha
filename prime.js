@@ -15,3 +15,4 @@ if(isPrime(number)){
 }else{
     console.log(number = "is not a Prime Number");
 }
+isPrime(17);
